@@ -1,0 +1,5 @@
+<h1>Site::Welcome#index</h1>
+<p>Find me in app/views/site/welcome/index.html.erb</p>
+
+<h2><%= user_signed_in? ? " Usuário Logado: #{current_user.email} "  : "Usuário Logado: NÃO" %></h2>
+<h2><%= admin_signed_in? ? " Administrador Logado: #{current_admin.email}  " : "Administrador Logado: NÃO" %></h2>
