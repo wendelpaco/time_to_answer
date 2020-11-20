@@ -1,0 +1,18 @@
+en:
+  notice:
+    admnistrator:
+      create: Administrator successfully registered
+      update: Administrator updated successfully
+      destroy: Administrator successfully deleted
+    question:
+      create: Question successfully registered
+      update: Question updated successfully
+      destroy: Question successfully deleted
+    subject:
+      create: Subject successfully registered
+      update: Subject updated successfully
+      destroy: Subject successfully deleted
+    answer:
+      create: Response registered successfully
+      update: Response updated successfully
+      destroy: Response successfully deleted

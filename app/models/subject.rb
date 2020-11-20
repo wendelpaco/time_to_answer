@@ -1,5 +1,9 @@
 class Subject < ApplicationRecord
   has_many :questions
-  # Kaminari Paginate
+
+  # validates :description, presence: true 
+  validates_presence_of :description
+  
+  #Kaminari Paginate
   paginates_per 20
 end

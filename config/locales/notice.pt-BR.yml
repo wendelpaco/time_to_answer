@@ -1,0 +1,18 @@
+pt-BR:
+  notice:
+    admnistrator:
+      create: Administrador cadastrado com sucesso
+      update: Administrador atualizado com sucesso
+      destroy: Administrador excluído com sucesso
+    question:
+      create: Questão cadastrada com sucesso
+      update: Questão atualizada com sucesso
+      destroy: Questão excluída com sucesso
+    subject:
+      create: Assunto cadastrado com sucesso
+      update: Assunto atualizado com sucesso
+      destroy: Assunto excluído com sucesso
+    answer:
+      create: Resposta cadastrada com sucesso
+      update: Resposta atualizada com sucesso
+      destroy: Resposta excluída com sucesso

@@ -1,0 +1,22 @@
+pt-BR:
+  messages:
+    listing: Listando %{model}
+    editing: Editando %{model}
+    new: Novo %{model}
+    new_question: Nova %{model}
+    confirm_with: Deseja excluir? [%{item}]
+    select: "::Selecione::" 
+  menu:
+    administrators: Administradores
+    subjects: Assuntos
+    questions: Questões
+  placeholder:
+    administrator: 
+      email: Email do Administrador
+      password: Senha do Administrador
+      password_confirmation: Confirmação de Senha do Administrador
+    subject: Descrição do Assunto
+    question: Descrição da Questão
+    answer: Descrição da Resposta
+  submit:
+    button: Salvar

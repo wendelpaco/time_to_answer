@@ -44,6 +44,7 @@ gem 'faker'
 gem 'awesome_print'
 gem 'kaminari'
 gem 'kaminari-i18n'
+gem 'cocoon'
 # ############################# #
 
 group :development, :test do

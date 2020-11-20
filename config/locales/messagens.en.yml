@@ -1,0 +1,22 @@
+en:
+  messages:
+    listing: Listing %{model}
+    editing: Editing %{model}
+    new: New %{model}
+    new_question: New %{model}
+    confirm_with: Do you want to delete? [%{item}]
+    select: "::Select::"
+  menu:
+    administrators: Administrators
+    subjects: Subjects
+    questions: Questions
+  placeholder:
+    administrator: 
+      email: Administrator Email
+      password: Administrator Password
+      password_confirmation: Administrator Password Confirmation
+    subject: Subjects Description
+    question: Question Description
+    answer: Answer Description
+  submit:
+    button: Save

@@ -66,12 +66,17 @@
             </li>
             <li>
               <%= link_to admins_backoffice_admins_path do %>
-              <i class="fa fa-users"></i> Administradores
+              <i class="fa fa-users"></i> <%= t('menu.administrators') %>
               <% end %>
             </li>
             <li>
               <%= link_to admins_backoffice_subjects_path do %>
-              <i class="fa fa-file-text-o"></i> Assuntos/Áreas
+              <i class="fa fa-file-text-o fa-fw"></i> <%= t('menu.subjects') %>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to admins_backoffice_questions_path do %>
+              <i class="fa fa-th-list fa-fw"></i> <%= t('menu.questions') %>
               <% end %>
             </li>
           </ul>
