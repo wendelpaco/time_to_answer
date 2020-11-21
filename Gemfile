@@ -45,6 +45,7 @@ gem 'awesome_print'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
+gem 'rails_12factor'
 # ############################# #
 
 group :development, :test do

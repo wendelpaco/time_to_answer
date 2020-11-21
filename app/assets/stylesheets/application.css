@@ -13,21 +13,27 @@
  *= require_self
  */
 
+
 /*  layout USER */
+
 .info-number .badge {
-  top: 8px !important;
-  right: 3px !important;
+    top: 8px !important;
+    right: 3px !important;
 }
+
 .icon_position {
-  padding-top: 10px;
+    padding-top: 10px;
 }
+
 .top_nav .navbar-right {
-  margin: 0 !important;
+    margin: 0 !important;
 }
+
+
 /* layout ADMIN */
 
 @media (max-width: 500px) {
-  .dropdown-menu {
-    position: fixed;
-  }
+    .dropdown-menu {
+        position: fixed;
+    }
 }
