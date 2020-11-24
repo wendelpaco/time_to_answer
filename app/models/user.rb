@@ -5,5 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   #Kaminari Paginate
-  paginates_per 20
+  paginates_per 10
 end
