@@ -30,3 +30,13 @@ Rails.application.config.assets.precompile += %w( sb-admin-2.js sb-admin-2.css
 
 #vendor/assets
 Rails.application.config.assets.precompile += %w( jquery/dist/jquery )
+
+
+
+# IMPORT FONTS
+Rails.application.config.assets.paths << Rails.root.join("app", "assets", "fonts")
+Rails.application.config.assets.precompile += %w( .eot .woff .ttf .svg)
+
+# IMPORT IMAGES
+Rails.application.config.assets.paths << Rails.root.join("app", "assets", "images")
+Rails.application.config.assets.precompile += %w( .png .jpg .jpeg .svg)

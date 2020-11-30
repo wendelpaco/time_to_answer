@@ -46,6 +46,7 @@ gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
 gem 'rails_12factor'
+gem 'font-awesome-sass', '~> 4.6', '>= 4.6.1'
 # ############################# #
 
 group :development, :test do

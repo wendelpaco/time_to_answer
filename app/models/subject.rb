@@ -5,5 +5,5 @@ class Subject < ApplicationRecord
   validates_presence_of :description
   
   #Kaminari Paginate
-  paginates_per 10
+  paginates_per 5
 end
