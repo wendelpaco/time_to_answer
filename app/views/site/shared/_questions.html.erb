@@ -1,15 +1,16 @@
 <div class="jumbotron text-center">
-  <% unless params[:q] %>
-    <h3> Ultimas Perguntas Cadastradas </h3>
-  <% else %>
-  <h3><%= "Respostas pesquisada #{params[:q]}" %> </h3>
-  <% end %>
+  <h2><%= msg_jumbotron %></h2>
 </div>
 <% @questions.each do |question| %>
   <%= form_with url: site_answer_path do |form| %>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title"><%= question.description %></h3>
+        <h3 class="panel-title">
+        <span class="label label-info" style="margin-right: 10px;">
+          <%= link_to "#{question.subject.description} (#{question.subject.questions_count})", site_search_subject_path(question.subject_id, question.subject.description), style: "color: white; text-decoration: none;" %>
+        </span>
+          <span class="label label-default"> <%= question.description %> </span>
+        </h3>
       </div>
       <div class="panel-body">
         <ul>
@@ -24,7 +25,7 @@
           </li>
         <%end%>
          <li style="list-style: none;">
-            <%= form.submit "Responder", class: "btn btn-default" %>
+            <%= form.submit "Responder", class: "btn btn-default", id: "submit_#{question.id}" %>
           </li>
         </ul>
       </div>

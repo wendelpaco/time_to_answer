@@ -57,6 +57,15 @@ namespace :dev do
     end
   end
 
+  desc "Reseta o contador dos assuntos"
+  task reset_subject_counter: :environment do 
+    show_spinner("Resetando o contador dos assuntos") do
+    Subject.find_each do |subject|
+      Subject.reset_counters(subject.id, :questions)
+      end
+    end
+  end
+
   desc "Adiciona perguntas e respostas"
   task add_answers_and_questions: :environment do 
     Subject.all.each do |subject|
